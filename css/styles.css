@@ -1,0 +1,231 @@
+/*
+Font choices: Monserrat/Crimson Text
+
+Colour choices: 
+#38E80C
+#FFEE0D
+#ffffff
+#000000
+
+background-image source: https://www.pexels.com/photo/shallow-focus-photography-of-yellow-sunflower-field-under-sunny-sky-1169084/
+*/
+
+body {
+    background-color: #000000;
+    padding-bottom: 50px;
+    line-height: 1.4;
+}
+
+.top {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+button {
+    margin-left: 20px; 
+}
+
+header {
+    background-color: #38E80C;
+    background-image: url("../images/flowers2.jpg");
+    padding-bottom: 5%; 
+    background-size: 100%;
+}
+
+h1 { 
+    color: #38E80C; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%; 
+    padding-top: 20px;
+    font-weight: 700;   
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 10px;
+  margin-left: 20px; 
+  margin-right: 20px;
+}
+
+/*tag-line*/
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%; 
+    font-weight: 700; 
+    color: #38E80C;   
+}
+
+
+/*subheadings*/
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%; 
+    padding-bottom: 20px; 
+    color: #FFEE0D;
+    font-weight: 700;
+}
+
+button {
+    border: none; 
+    background-color: #38E80C;
+    font-size: 150%;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
+    margin-top: 10px;
+    width: 90%;
+}
+
+button:hover {
+    background-color: #FFEE0D; 
+}
+
+#active {
+    background-color: white; 
+    color: #38E80C;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 0.75rem;
+    margin-right: 20px;
+    color: #FFEE0D;
+}
+
+/*NAV STYLING*/
+
+nav {
+    background-color: #38E80C;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+
+
+/*makes the nav bar horizontal*/
+
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    color: #38E80C; 
+    
+}
+
+/*A-link styling*/
+
+li:hover {
+    background-color: #000000;
+}
+
+a:link {
+    color: #FFEE0D;
+    text-decoration: none; 
+}
+
+
+a:visited {
+    color: #FFEE0D;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #FFEE0D;
+}
+
+.social a {
+    font-size: 400%;
+    color: #38E80C;
+    background-color: none;
+}
+
+.social a:hover {
+    color: #FFEE0D;
+     
+}
+
+img {
+    border-radius: 5px; 
+    width: 90%;   
+}
+
+footer li {
+    display: inline; 
+}
+
+.icons {
+    margin-left: 20px; 
+}
+
+h2,img, p {
+    margin-left: 20px; 
+}
+
+@media screen and (min-width: 30rem) {
+    body {
+        box-sizing: border-box;
+        line-height: 1.4;}
+    .title {
+        font-size: 200%;
+    }
+    
+    h1, h2, h3, footer, li, nav {
+        text-align: center; 
+    }
+    
+    .box {
+        margin: auto; 
+    }
+    
+    div {
+    max-width: 85%; 
+    margin: auto;
+    }
+    
+    button {
+        font-size: 80%;
+        width: 25%;
+        margin: auto; 
+    }
+    
+    .controls {
+        display: flex; 
+        flex-direction: row wrap; 
+    }
+    
+    nav li {
+        display: inline; 
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+    
+    h1, h2, h3 {
+        max-width: 90%; 
+        margin: auto;
+    }
+    
+    h3 {
+        font-size: 150%;
+    }
+    
+    img, p { 
+        margin-left: 5%;
+        font-size: 1rem;
+    }
+
+    footer { max-width: 60%; 
+    margin: auto;
+        
+    }
+    
+    div.icons {
+        margin: auto; 
+    }
+    
+    li:hover {
+    background-color: transparent;
+    }
+}
